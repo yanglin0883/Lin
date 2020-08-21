@@ -1,0 +1,63 @@
+
+Output: "NO"
+Explanation:
+The final result of inputA is "bc", and the final result of inputB is "ab", so return "NO".
+
+    DifficultyEasy
+    Total Accepted1092
+    Total Submitted2794
+    Accepted Rate39%
+
+ Show Tags
+ Company
+Leaderboard - Java
+kpkym
+167ms
+mr.49
+Bronze IV
+168ms
+cooljt
+Gold I
+173ms
+bin821
+176ms
+zhangchnz85
+Gold IV
+179ms
+Note
+class Solution { public: /** * @param inputA: Input stream A * @param inputB: Input stream B * @return: The answer */ string inputStream(string &inputA, string &inputB) { // Write your code here string res_a, res_b; for(char c : inputA) { if(c == '<') { if(res_a.size() > 0) res_a.pop_back(); } else { res_a.push_back(c); } } for(char c : inputB) { if(c == '<') { if(res_b.size() > 0) res_b.pop_back(); } else { res_b.push_back(c); } } if(res_b == res_a) return string("YES"); else return string("NO"); } };
+avatarmildwolf
+Created at 2 months ago
+def inputStream(self, inputA, inputB): # Write your code here A = [] for x in inputA: if x == '<' and len(A) == 0: continue elif x == '<' and len(A) > 0: A.pop() else: A.append(x) B = [] for x in inputB: if x == '<' and len(B) == 0: continue elif x == '<' and len(B) > 0: B.pop() else: B.append(x) if A == B: return 'YES' else: return 'NO'
+avatarPoiuytre
+Created at 4 months ago
+scan from rear; find next available element for comparisons;
+avatarseantiger
+Created at 4 months ago
+Discuss
+No topic
+823. Input Stream
+ÖÐÎÄ
+English
+
+Give two input stream inputA and inputB, which have Backspace. If the final result of the two input streams are equal, output YES, otherwise output NO.
+Example
+
+Example1
+
+Input:  inputA = "abcde<<" and inputB = "abcd<e<"
+Output: "YES"
+Explanation:
+The final result of inputA and inputB is "abc", so return "YES".
+
+Example2
+
+Input:  inputA = "a<<bc" and inputB = "abc<"
+Output: "NO"
+Explanation:
+The final result of inputA is "bc", and the final result of inputB is "ab", so return "NO".
+
+Notice
+
+    Input characters include only lowercase letters and '<'
+    The length of input stream does not exceed 10000

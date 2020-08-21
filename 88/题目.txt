@@ -1,0 +1,17 @@
+88. Lowest Common Ancestor of a Binary Tree
+ÖÐÎÄ
+English
+
+Given the root and two nodes in a Binary Tree. Find the lowest common ancestor(LCA) of the two nodes.
+
+The lowest common ancestor is the node with largest depth which is the ancestor of both nodes.
+Example
+
+Example 1:
+
+Input£º{1},1,1
+Output£º1
+Explanation£º
+ For the following binary tree£¨only one node£©:
+         1
+ LCA(1,1) = 1

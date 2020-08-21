@@ -1,0 +1,39 @@
+68. Binary Tree Postorder Traversal
+ÖÐÎÄ
+English
+
+Given a binary tree, return the postorder traversal of its nodes' values.
+Example
+
+Example 1:
+
+Input£º{1,2,3}
+Output£º[2,3,1]
+Explanation:  
+   1
+  / \
+ 2   3
+ it will be serialized {1,2,3}
+Post order traversal
+
+Example 2:
+
+Input£º{1,#,2,3}
+Output£º[3,2,1]
+Explanation:  
+1
+ \
+  2
+ /
+3
+it will be serialized {1,#,2,3}
+Post order traversal
+
+Challenge
+
+Can you do it without recursion?
+Notice
+
+    The first data is the root node, followed by the value of the left and right son nodes, and "#" indicates that there is no child node.
+    The number of nodes does not exceed 20.
+

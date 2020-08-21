@@ -1,0 +1,25 @@
+487. Name Deduplication
+ÖÐÎÄ
+English
+
+Given a list of names, remove the duplicate names. Two name will be treated as the same name if they are equal ignore the case.
+
+Return a list of names without duplication, all names should be in lowercase, and keep the order in the original list.
+Example
+
+Example 1:
+
+Input:["James", "james", "Bill Gates", "bill Gates", "Hello World", "HELLO WORLD", "Helloworld"]
+
+
+Output:["james", "bill gates", "hello world", "helloworld"]
+
+Example 2:
+
+Input:["cmy","Cmy"]
+
+Output:["cmy"]
+
+Clarification
+
+You can assume that the name contains only uppercase and lowercase letters and spaces.

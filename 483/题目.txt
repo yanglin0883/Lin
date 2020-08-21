@@ -1,0 +1,40 @@
+Leaderboard - Java
+yellowfefe
+300ms
+ryan19931004
+314ms
+kevliu
+314ms
+OrganicHumanBeing
+316ms
+tingting49
+317ms
+Note
+7/6 一刷 Week3
+avatarwjsugar
+Created at 16 days ago
+基本操作： 1. 动态数组 定义： ArrayList<Integer> arr = new ArrayList<>(); arr.add(); 末尾添加 result = [] result.append 2. head != null; == head is not None
+avatarLing_Kong
+Created at a month ago
+public class Solution { /** * @param head the head of linked list. * @return an array list */ public List<Integer> toArrayList(ListNode head) { // Write your code here List<Integer> result = new ArrayList<Integer>(); //遍历链表，并将ListNode的val存储在数组中 while (head != null) { result.add(head.val); head = head.next; } return result; } }
+avatarsibing1915563868
+Created at 2 months ago
+Discuss
+cnkyzz · Last reply by · cnkyzz · a year ago
+483. Convert Linked List to Array List
+中文
+English
+
+Convert a linked list to an array list.
+Example
+
+Example 1:
+
+Input: 1->2->3->null
+Output: [1,2,3]
+
+Example 2:
+
+Input: 3->5->8->null
+Output: [3,5,8]
+

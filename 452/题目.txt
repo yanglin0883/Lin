@@ -1,0 +1,48 @@
+    DifficultyEasy
+    Total Accepted25026
+    Total Submitted112328
+    Accepted Rate22%
+
+ Show Tags
+Leaderboard - Java
+920449522
+229ms
+xuzheng
+230ms
+dtbllsj
+231ms
+terry201812
+232ms
+verafeng32
+233ms
+Note
+删除节点 lastNode = lastNode->next; thisNode = lastNode->next;
+avatar993031445
+Created at 16 days ago
+create a dummy. link dummy to head update dummry to head
+avatarAiMao
+Created at a month ago
+head 自身是一个listnode属性，val是int。 通过定义dummy，最后return dummy.next，可以找到head 为什么不用head.next 作为和val的比较值。可以用head.next = head.next.next 比较呀？ 因为这样的话head本身无法被比较到，可能会牵涉多种状况。定义两个variable，pre和head(pre.next)。就可以从头开始比较到head本身。通过pre.next = head.next 删除head。 然后pre和head共同前进一步。 记得head如果被删掉的话需要重新定义为pre=head。这样等下可以定义到下一个值。
+avatarqianfanguo
+Created at a month ago
+Discuss
+shuotao · Last reply by · shuotao · 9 days ago
+cnkyzz · Last reply by · cnkyzz · a year ago
+richenyunqi · Last reply by · richenyunqi · a year ago
+452. Remove Linked List Elements
+中文
+English
+
+Remove all elements from a linked list of integers that have value val.
+Example
+
+Example 1:
+
+Input: head = 1->2->3->3->4->5->3->null, val = 3
+Output: 1->2->4->5->null
+
+Example 2:
+
+Input: head = 1->1->null, val = 1
+Output: null
+

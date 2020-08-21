@@ -1,0 +1,37 @@
+482. Binary Tree Level Sum
+ÖÐÎÄ
+English
+
+Given a binary tree and an integer which is the depth of the target level.
+
+Calculate the sum of the nodes in the target level.
+Example
+
+Example 1:
+
+Input£º{1,2,3,4,5,6,7,#,#,8,#,#,#,#,9},2
+Output£º5 
+Explanation£º
+     1
+   /   \
+  2     3
+ / \   / \
+4   5 6   7
+   /       \
+  8         9
+2+3=5
+
+Example 2:
+
+Input£º{1,2,3,4,5,6,7,#,#,8,#,#,#,#,9},3
+Output£º22
+Explanation£º
+     1
+   /   \
+  2     3
+ / \   / \
+4   5 6   7
+   /       \
+  8         9
+4+5+6+7=22
+

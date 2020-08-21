@@ -1,0 +1,31 @@
+158. Valid Anagram
+ÖÐÎÄ
+English
+
+Write a method anagram(s,t) to decide if two strings are anagrams or not.
+Example
+
+Example 1:
+
+Input: s = "ab", t = "ab"
+Output: true
+
+Example 2:
+
+Input:  s = "abcd", t = "dcba"
+Output: true
+
+Example 3:
+
+Input:  s = "ac", t = "ab"
+Output: false
+
+Challenge
+
+O(n) time, O(1) extra space
+Clarification
+
+What is Anagram?
+
+    Two strings are anagram if they can be the same after change the order of characters.
+

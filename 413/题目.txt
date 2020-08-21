@@ -1,0 +1,17 @@
+413. Reverse Integer
+ÖĞÎÄ
+English
+
+Reverse digits of an integer. Returns 0 when the reversed integer overflows (signed 32-bit integer).
+Example
+
+Example 1:
+
+Input: 123
+Output: 321
+
+Example 2:
+
+Input: -123
+Output: -321
+

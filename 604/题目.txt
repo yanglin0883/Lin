@@ -1,0 +1,16 @@
+604. Window Sum
+ÖÐÎÄ
+English
+
+Given an array of n integers, and a moving window(size k), move the window at each iteration from the start of the array, find the sum of the element inside the window at each moving.
+Example
+
+Example 1
+
+Input£ºarray = [1,2,7,8,5], k = 3
+Output£º[10,17,20]
+Explanation£º
+1 + 2 + 7 = 10
+2 + 7 + 8 = 17
+7 + 8 + 5 = 20
+

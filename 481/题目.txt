@@ -1,0 +1,28 @@
+481. Binary Tree Leaf Sum
+ÖÐÎÄ
+English
+
+Given a binary tree, calculate the sum of leaves.
+Example
+
+Example 1:
+
+Input£º{1,2,3,4}
+Output£º7
+Explanation£º
+    1
+   / \
+  2   3
+ /
+4
+3+4=7
+
+Example 2:
+
+Input£º{1,#,3}
+Output£º3
+Explanation£º
+    1
+      \
+       3
+

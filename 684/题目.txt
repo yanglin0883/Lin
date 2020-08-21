@@ -1,0 +1,15 @@
+684. Missing String
+жпнд
+English
+
+Given two strings, you have to find the missing string.
+Example
+
+Example 1:
+
+Input : str1 = "This is an example", str2 = "is example"
+Output : ["This", "an"]
+
+Notice
+
+The output string order is the order within the input string

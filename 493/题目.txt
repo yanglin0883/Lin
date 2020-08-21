@@ -1,0 +1,31 @@
+493. Implement Queue by Linked List II
+ÖÐÎÄ
+English
+
+Implement a Queue by linked list. Provide the following basic methods:
+
+    push_front(item). Add a new item to the front of queue.
+    push_back(item). Add a new item to the back of the queue.
+    pop_front(). Move the first item out of the queue, return it.
+    pop_back(). Move the last item out of the queue, return it.
+
+Example
+
+Example 1£º
+
+Input£º
+push_front(1)
+push_back(2)
+pop_back() // return 2
+pop_back() // return 1
+push_back(3)
+push_back(4)
+pop_front() // return 3
+pop_front() // return 4
+
+Example 2£º
+
+Input:
+push_front(1)
+pop_front()// return 1
+

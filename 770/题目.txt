@@ -1,0 +1,20 @@
+770. Maximum and Minimum
+ÖĞÎÄ
+English
+
+Given a matrix, return the maximum number and the minimum number.
+Example
+
+Example 1:
+
+Input : 
+[
+ [1,2,3],
+ [4,3,2],
+ [6,4,4]
+]
+Output : [6,1]
+
+Notice
+
+Your need to return a integer array, that array[0] represent the maximum and array[1] represent the minimum.

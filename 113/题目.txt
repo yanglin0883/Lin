@@ -1,0 +1,17 @@
+113. Remove Duplicates from Sorted List II
+ÖÐÎÄ
+English
+
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+Example
+
+Example 1
+
+Input : 1->2->3->3->4->4->5->null
+Output : 1->2->5->null
+
+Example 2
+
+Input : 1->1->1->2->3->null
+Output : 2->3->null
+

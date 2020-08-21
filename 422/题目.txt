@@ -1,0 +1,57 @@
+
+Output: 8
+
+Related Problems
+
+    DifficultyEasy
+    Total Accepted8803
+    Total Submitted23974
+    Accepted Rate36%
+
+ Show Tags
+Leaderboard - Java
+______________
+Silver II
+189ms
+jsy29
+191ms
+leolizhang
+192ms
+Good_Good_Study_
+192ms
+Sodiaw
+193ms
+Note
+自己写的： class Solution: def lengthOfLastWord(self, s): lens=len(s)-1 count=0 for i in range(lens,-1,-1): if s[i]==' ' and count==0: continue elif s[i]==' ' and count!=0: break else: count+=1 return count 答案： class Solution: def lengthOfLastWord(self, s): # return len(s.strip().split(' ')[-1])#一个空格就可以识别。如果是 return len(s.strip().split(' ')[-1])
+avatar.057
+Created at 8 days ago
+interview problem with Microsoft for a FWD contractor position
+avatardiudiulei
+Created at 17 days ago
+1.使用split截取。 String[] s1 = s.split(" "); int length = s1[s1.length - 1].length(); return length; 2.
+avatarshangjiachigua
+Created at 18 days ago
+Discuss
+No topic
+422. Length of Last Word
+中文
+English
+
+Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
+
+If the last word does not exist, return 0.
+Example
+
+Example 1:
+
+Input: "Hello World"
+Output: 5
+
+Example 2:
+
+Input: "Hello LintCode"
+Output: 8
+
+Notice
+
+A word is defined as a character sequence consists of non-space characters only.
